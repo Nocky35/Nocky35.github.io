@@ -1,0 +1,158 @@
+
+html {
+    
+    background-image: url(https://wallpapercave.com/uwp/uwp769019.gif);
+    background-size: cover;
+    height:auto;
+    width:100%;
+  }
+
+  .header{
+    width: 100%;
+    height: 75px;
+    background: #b1030396;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+
+}
+
+.header container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    line-height: 75px;
+    
+}
+
+.logo h1{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    cursor: default;
+    line-height:0px;
+    font-family:Garamond;
+    font-style:oblique;
+    padding: 15px;
+}
+
+.menu{
+    float: right;
+    line-height: 50px;
+}
+
+.menu a{
+    background-color: transparent;
+    color:white;
+    border-color: transparent;
+    font-size: 25px;
+    transition: all 500ms ease;
+    font-family: Cambria;
+    padding: 10px 15px;
+      line-height: 50px;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+
+}
+
+.menu a:hover {
+    color:#fcd80b;
+    background-color: rgba(128, 128, 128, 0.26);
+  }
+.logout {
+    background-color: transparent;
+    color:white;
+    border-color: transparent;
+    font-size: 25px;
+    transition: all 500ms ease;
+    font-family: Cambria;
+    padding: 10px 15px;
+      line-height: 50px;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+}
+
+.logout:hover{
+    color:#fcd80b;
+    background-color: rgba(128, 128, 128, 0.26);
+  }
+
+
+  .page-content{
+      z-index: 5;
+  }
+
+  
+    .card {
+         position: relative;
+         display: flex;
+         border: 1px solid rgba(0, 0, 0, 0.125);
+         border-radius: 0.25rem;
+         background-color: #b1030396;
+         border: solid 2px Black;
+         border-radius: 15px;
+         max-width: 950px;
+         margin-left: auto;
+         margin-right: auto;
+         z-index: 5;
+         margin-bottom: 50px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         color:white;    
+        transition: 0.2s;
+             
+    }
+    
+    .card:hover{
+        box-shadow: 5px 10px 10px #fcd80b;
+        
+    }
+
+    .card-img-top {
+        width:550px;
+        height:350px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        
+    }
+
+    .card-body {
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .agregar:hover {
+        background-color: orange;
+        color: white;
+    }
+    
+    .agregar {
+        border: 2px solid orange;
+        font-size: 16px;
+        text-align: center;
+        transition-duration: 0.4s;
+        color: black;
+        background-color: white;
+        border-radius: 8px;
+        padding: 10px 16px;
+    }
+
+    .btnagregar{
+        justify-content: center;
+    text-align: center;
+    }
+
+    .encriptaciones {
+        justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+    }

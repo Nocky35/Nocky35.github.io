@@ -1,0 +1,137 @@
+html {
+    
+    background-image: url(https://wallpapercave.com/uwp/uwp769019.gif);
+    background-size: cover;
+  }
+
+.header{
+    width: 100%;
+    height: 75px;
+    background: #b1030396;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+
+}
+
+.header container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    line-height: 75px;
+    
+}
+
+.logo h1{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    cursor: default;
+    line-height:0px;
+    font-family:Garamond;
+    font-style:oblique;
+    padding: 15px;
+}
+
+.menu{
+    float: right;
+    line-height: 50px;
+}
+
+.menu a{
+    background-color: transparent;
+    color:white;
+    border-color: transparent;
+    font-size: 25px;
+    transition: all 500ms ease;
+    font-family: Cambria;
+    padding: 10px 15px;
+      line-height: 50px;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+
+}
+
+.menu a:hover {
+    color:#fcd80b;
+    background-color: rgba(128, 128, 128, 0.26);
+  }
+
+    .container {
+        border: solid;
+        border-radius: 5px;
+        border-color: white;
+        background-color: #b1030396;
+        border-width: 10px;
+        max-width: 700px;
+        align-content: center;
+        margin: 0 auto;
+        
+    }
+
+    .display-4 {
+        font-family:'Lucida Bright';
+        text-align: center;
+        text-shadow: Black 1px 5px 10px;
+        color: White;
+        font-size: 50px;
+        
+    }
+
+    .uwu {
+        font-family: Cambria;
+        text-align: center;
+        color: White;
+        text-shadow: Black 1px 5px 10px;
+        
+    }
+
+    .numtel {
+        color:White;
+        text-shadow: Black 1px 5px 10px;
+        font-size: 30px;
+        text-align: center ;
+
+    }
+
+    .numtel2 {
+        color:White;
+        text-shadow: Black 1px 5px 10px;
+        font-size: 30px;
+        text-align: center; 
+    }
+
+.tuki {
+    border-radius: 8px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid Black;
+
+}
+
+#cerrarsesion{
+    background-color: transparent;
+    color:white;
+    border-color: transparent;
+    font-size: 25px;
+    transition: all 500ms ease;
+    font-family: Cambria;
+    padding: 10px 15px;
+      line-height: 25px;
+      display: inline-block;
+      border-radius: 5px;
+}
+
+#cerrarsesion:hover{
+    color:#fcd80b;
+    background-color: rgba(128, 128, 128, 0.26);
+}

@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Play";
+    src: url("Play-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 10x;
+}
+
+html{
+    width: 100%;
+    font-family: "Play";
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/949591360441422551/423DC2BDC423A18732AFCF209BA0ED41579E99BE/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-size: cover;
+}
+
+canvas{
+    display: block;
+    border: solid white 5px;
+    margin: 10vh auto;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/940590971984050160/8A63DA566A2DE7711201814F6043E0156031230F/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.header{
+    width: 100%;
+    height: 75px;
+    background: #b1030396;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+
+}
+
+.header container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    line-height: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.logo h1{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    cursor: default;
+    line-height:50px;
+    font-family:Garamond;
+    font-style:oblique;
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu{
+    float: right;
+    line-height: 50px;
+}
+
+.menu a{
+    background-color: transparent;
+    color:white;
+    border-color: transparent;
+    font-size: 25px;
+    transition: all 500ms ease;
+    font-family: Cambria;
+    padding: 10px 15px;
+      line-height: 50px;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+
+}
+
+.menu a:hover {
+    color:#fcd80b;
+    background-color: rgba(128, 128, 128, 0.26);
+  }
+  
+      .display-4 {
+          font-family:'Lucida Bright';
+          text-align: center;
+          text-shadow: Black 1px 5px 10px;
+          color: white;
+          
+      }
+  
+      .uwu {
+          font-family: Cambria;
+          text-align: center;
+          color: white;
+          text-shadow: Black 1px 5px 10px;
+          
+      }
+  
+      .menu a{
+          font-family: Cambria;
+      }
+.logout {
+    background-color: transparent;
+    color:white;
+    border-color: transparent;
+    font-size: 25px;
+    transition: all 500ms ease;
+    font-family: Cambria;
+    padding: 10px 15px;
+        line-height: 50px;
+        display: inline-block;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    
+    .logout:hover{
+        color:#fcd80b;
+        background-color: rgba(128, 128, 128, 0.26);
+      }
+    
+
+
+/*  media queries */
+
+/* @media only screen and (max-width: 600px) {
+    canvas{
+        display: block;
+        margin: 2vh auto;
+        background-color: #000;
+    }
+
+  } */
+
+/*  media queries */

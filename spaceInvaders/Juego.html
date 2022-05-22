@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css"/>
+<link rel="stykesheet" href=".../bootstrap/css/bootstrap-grid.css" />
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1 >Tortas "Los Tuki"</h1>
+            </div>
+            <nav class="menu">
+                <a href="../Index.php">Inicio</a>
+                <a href="../site.php">Pedir</a>
+                <a href="../contacto.php">Contacto</a>
+                <a href="../mostrarCarrito.php"> Carrito </a>
+                <button class="logout">Cerrar Sesion</button> 
+            </nav>
+        </div>
+  </header>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="Play-Regular.ttf" as="font" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Space Invaders</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="520"></canvas>    
+    
+    <script  src="script.js"></script>
+    <!-- <script src="collision.js"></script> -->
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+    import { } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-auth.js"
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDkHTK7Fq_iNBJleSYmq9Of86Ph5thXlFM",
+      authDomain: "pia-tukis.firebaseapp.com",
+      projectId: "pia-tukis",
+      storageBucket: "pia-tukis.appspot.com",
+      messagingSenderId: "519151062718",
+      appId: "1:519151062718:web:23bb10514144c7dc8858ef"
+    };
+
+    // Initialize Firebase
+    import { getAuth, createUserWithEmailAndPassword, signOut, signInWithEmailAndPassword } from 'https://cdnjs.cloudflare.com/ajax/libs/firebase/9.6.11/firebase-auth.js';
+    const app = initializeApp(firebaseConfig);
+
+    //Cerrar sesion
+  const auth = getAuth();    
+  const logoutBtn = document.querySelector('.logout');
+      logoutBtn.addEventListener('click', (e) => {
+          signOut(auth).then(() => {
+              console.log('sesion cerrada');
+              window.location.href ="../Inicio.php"
+          }).catch((err) => {
+              console.log(err.message);
+              
+          })
+
+      });
+</script>
+</html>
